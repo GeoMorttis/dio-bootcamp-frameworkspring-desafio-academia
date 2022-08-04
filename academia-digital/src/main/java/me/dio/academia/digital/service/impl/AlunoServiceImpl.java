@@ -44,7 +44,6 @@ public class AlunoServiceImpl implements IAlunoService {
             LocalDate localDate = LocalDate.parse(dataDeNascimento, JavaTimeUtils.LOCAL_DATE_FORMATTER);
             return repository.findByDataDeNascimento(localDate);
         }
-
     }
 
     @Override
@@ -62,7 +61,5 @@ public class AlunoServiceImpl implements IAlunoService {
         Aluno aluno = repository.findById(id).get();
 
         return aluno.getAvaliacoes();
-
     }
-
 }

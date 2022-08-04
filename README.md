@@ -2,4 +2,4 @@
 
 # Bootcamp Framework Spring - DIO
 
-- Repositório criado para o primeiro desafio de projeto do Módulo II do Bootcamp Framework Spring da DIO. (Início em03/08  - em andamento).
+- Repositório criado para o primeiro desafio de projeto do Módulo II do Bootcamp Framework Spring da DIO. (Início em03/08  - Finalizado 04/08).

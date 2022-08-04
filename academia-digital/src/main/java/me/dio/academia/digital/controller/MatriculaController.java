@@ -1,10 +1,10 @@
 package me.dio.academia.digital.controller;
 
 import me.dio.academia.digital.entity.Matricula;
-import me.dio.academia.digital.entity.form.MatriculaForm;
-import me.dio.academia.digital.service.impl.MatriculaServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import me.dio.academia.digital.entity.form.MatriculaForm;
+import me.dio.academia.digital.service.impl.MatriculaServiceImpl;
 
 import javax.validation.Valid;
 import java.util.List;
@@ -25,5 +25,4 @@ public class MatriculaController {
     public List<Matricula> getAll(@RequestParam(value = "bairro", required = false) String bairro) {
         return service.getAll(bairro);
     }
-
 }

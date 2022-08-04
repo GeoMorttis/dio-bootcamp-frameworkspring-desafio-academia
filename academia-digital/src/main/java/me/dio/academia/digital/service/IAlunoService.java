@@ -38,17 +38,18 @@ public interface IAlunoService {
      */
     Aluno update(Long id, AlunoUpdateForm formUpdate);
 
-    /**
+     /**
      * Deleta um Aluno específico.
      * @param id id do Aluno que será removido.
      */
+
     void delete(Long id);
 
-    /**
-     *
-     * @param id id do aluno que será recuperada a lista de avaliações
-     * @return uma lista com todas as avaliações do aluno de acordo com o Id
-     */
+      /**
+      * @param id id do aluno que será recuperada a lista de avaliações
+      * @return uma lista com todas as avaliações do aluno de acordo com o Id
+      */
+
     List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id);
 
 

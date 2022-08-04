@@ -6,13 +6,12 @@ import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 import me.dio.academia.digital.infra.utils.JavaTimeUtils;
 
 import java.io.IOException;
+import java.io.Serial;
 import java.time.LocalDateTime;
 
-/**
- * @author Venilton Falvo Jr
- */
 public class LocalDateTimeDeserializer extends StdDeserializer<LocalDateTime> {
 
+    @Serial
     private static final long serialVersionUID = -7209271947629593913L;
 
     public LocalDateTimeDeserializer() {

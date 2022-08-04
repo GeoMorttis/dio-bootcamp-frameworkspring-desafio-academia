@@ -2,12 +2,12 @@ package me.dio.academia.digital.service.impl;
 
 import me.dio.academia.digital.entity.Aluno;
 import me.dio.academia.digital.entity.AvaliacaoFisica;
-import me.dio.academia.digital.entity.form.AvaliacaoFisicaForm;
-import me.dio.academia.digital.entity.form.AvaliacaoFisicaUpdateForm;
-import me.dio.academia.digital.repository.AlunoRepository;
 import me.dio.academia.digital.repository.AvaliacaoFisicaRepository;
 import me.dio.academia.digital.service.IAvaliacaoFisicaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import me.dio.academia.digital.entity.form.AvaliacaoFisicaForm;
+import me.dio.academia.digital.entity.form.AvaliacaoFisicaUpdateForm;
+import me.dio.academia.digital.repository.AlunoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
